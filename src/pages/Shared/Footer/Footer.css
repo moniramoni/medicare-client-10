@@ -1,0 +1,40 @@
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 150%;
+    padding: 20px;
+}
+.number{
+    margin-top: 15px;
+    line-height: 0px;
+}
+.hour{
+    margin-top: 15px;
+    line-height: 10px;
+}
+.fa-phone, .fa-envelope, .fa-envelope-open, .fa-map-marker-alt{
+    color: #0cb8b6;
+    font-size: 13px;
+}
+
+.footer-menu li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 15px;
+}
+.footer-menu li:hover{
+    color: #0cb8b6;
+}
+.footer-icon li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    color: #0cb8b6;
+    font-size: 19px;
+}
+.footer-icon li:hover{
+    color: white;
+}

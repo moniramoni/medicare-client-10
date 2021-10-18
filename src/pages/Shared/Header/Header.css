@@ -1,0 +1,12 @@
+.logo-container{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.header{
+    background-color: aqua;
+    margin: 0;
+}
+.logo-name{
+    margin-top: -500px;
+}
