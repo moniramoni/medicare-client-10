@@ -14,7 +14,7 @@ const About = () => {
                                     <h6 className="">About Our Hospital</h6>
                                 </div>
                                 <h3 className="fs-2 fw-bold text-start py-4 ">Whatever Your Healthcare Needs We Are Here to Help</h3>
-                                <p className="fw-light text-start d-md-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <br /> <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <p className="fw-light text-start d-md-none d-lg-block">Medicare is missioned to connect people to proper healthcare timely and easily. To reduce treatment delays, Medicare build health awareness among the people through various ways.</p>
                                 <div>
                                     <Row className="p-2 w-100">
                                         <Col xs={2} md={6} lg={6}>

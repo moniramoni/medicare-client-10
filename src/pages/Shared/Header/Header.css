@@ -13,3 +13,21 @@
 NavLink{
     color: #0cb8b6;
 }
+.menu-text{
+    color: #0cb8b6;
+    outline: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-text:hover{
+    color: #0cb8b6;
+}
+.logout-btn{
+    background-color: #0cb8b6;
+
+}
+.profile-img{
+    width:15%;
+    border-radius: 50%;
+    margin-right: 10px;
+}

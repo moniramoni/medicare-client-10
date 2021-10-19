@@ -1,9 +1,11 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../../Hooks/useAuth';
 import './SignIn.css'
 
 const SignIn = () => {
+    const { signInUsingGoogle } = useAuth()
     return (
         <div>
             <div className="form-container my-5">
@@ -33,7 +35,7 @@ const SignIn = () => {
                         <p className="px-2 text-white-75"> Or LogIn with one of the following:</p>
                         <hr className="text-dark"/>
                         <div className="d-flex justify-content-center align-items-center text-dark fs-2">
-                            <button onClick="" className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-google"></i></button>
+                            <button onClick={signInUsingGoogle} className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-google"></i></button>
                             <button className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-github"></i></button>
                             <button className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-facebook"></i></button>
                             <button className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-twitter"></i></button>

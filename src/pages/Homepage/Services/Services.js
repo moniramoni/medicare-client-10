@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Services.css'
 import Service from '../Service/Service';
-import { Col, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 const Services = () => {
 
@@ -9,7 +9,7 @@ const Services = () => {
     console.log(services)
 
     useEffect( () => {
-        fetch('./services.JSON')
+        fetch('./services.json')
         .then(res=> res.json())
         .then(data => setServices(data))
       }, [])
@@ -17,18 +17,20 @@ const Services = () => {
     return (
         <div>
             <div>
-            <h5>Browse All Services</h5>
+                <h1 className="fs-1 fw-bold">Browse All Services</h1>
             </div>
-            <div className="services-container">
-                {
-                    services.map(service => <Service 
-                        
-                        key={service.id}
-                        service={service}
+            {/* <div className="row m-0  gap-4 W-100 justify-content-center"> */}
+                <Row className="services-container">
+                        {
+                        services.map(service => <Service 
+                            
+                            key={service.id}
+                            service={service}
 
-                    ></Service>)
-                }
-            </div>
+                        ></Service>)
+                        }
+                </Row>
+            {/* </div> */}
         </div>
     );
 };
