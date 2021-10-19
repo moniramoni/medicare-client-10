@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../../Hooks/useAuth';
 import './SignIn.css'
 
 const SignIn = () => {
-    const { signInUsingGoogle } = useAuth()
+    const {user, error,  signInUsingGoogle, handlePasswordChange, handleSignUp, handleEmailChange} = useAuth()
+
     return (
         <div>
             <div className="form-container my-5">
@@ -13,12 +14,12 @@ const SignIn = () => {
                 <h2 className="pb-3">Sign-In </h2>
 
                 {/* --------logIn with Email & Password-------- */}
-                <div>
+                <form onSubmit={handleSignUp}>
                     <Form.Group className="mb-3">
-                        <Form.Control type="email" placeholder="Email" />
+                        <Form.Control onBlur={handleEmailChange} type="email" placeholder="Email" required/>
                     </Form.Group>
                     <Form.Group className="mb-3">
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" required/>
                     </Form.Group>
                     <Button className="signIn-btn mb-3 w-100 p-2 rounded" as="input" type="submit" value="Sign In" />{' '}
                     <div className="d-flex align-middle justify-content-center"> 
@@ -26,7 +27,8 @@ const SignIn = () => {
                         <p className="px-2"> New to Emajon? </p>
                         <hr className="w-25 text-dark"/>
                     </div>
-                    <Link to="/signup"><Button className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Create New Account" />{' '}</Link>
+                    <div className="row mb-3 text-danger">{error}</div>
+                    <Link to="/signup"><Button onSubmit={handleSignUp} className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Create New Account" />{' '}</Link>
 
 
                     {/* -------logIn with Another way------- */}
@@ -42,7 +44,7 @@ const SignIn = () => {
                         </div>
 
                     </div>
-                </div>
+                </form>
             </div>
         </div>
         </div>
