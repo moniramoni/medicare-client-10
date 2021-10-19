@@ -1,15 +1,21 @@
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import About from '../About/About';
 import Banner from '../Banner/Banner';
+import RecoveryVideo from '../RecoveryVideo/RecoveryVideo';
+import Services from '../Services/Services';
+import Testimonial from '../Testimonial/Testimonial';
 import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <Banner></Banner>
-            <Footer></Footer>
+            <About></About>
+            <Services></Services>
+            <RecoveryVideo></RecoveryVideo>
+            <Testimonial></Testimonial>
         </div>
     );
 };

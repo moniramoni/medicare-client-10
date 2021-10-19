@@ -1,0 +1,73 @@
+.recovery-video-section{
+    margin: 50px 0px 50px 0px ;
+    
+}
+.recovery-video-container{
+    background-image: url("http://pinevale.axiomthemes.com/wp-content/uploads/2018/07/bg-2.jpg");
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 50px 0px;
+    padding-left: 50px;
+}
+.recovery-title{
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 80px;
+}
+.recovery-story{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    align-items: center;
+}
+.fa-play{
+    color: #0cb8b6;
+    text-align: left;
+    font-size: 30px;
+    border: 1px solid #f36438;
+    border-radius: 50%;
+    padding: 20px;
+}
+.story-title{
+    color: #0cb8b6;
+}
+.story-para{
+    color: rgba(240, 255, 255, 0.329);
+}
+.border-video{
+    border: 2px solid #0cb8b6;
+    border-radius: 10px;
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 959px){
+    
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .recovery-video-container{
+        height: 450px;
+        padding: 20px;
+    }
+    .recovery-title{
+        font-size: 30px;
+        padding: 40px 0px 0px 0px;
+    }
+    .fa-play{
+        font-size: 10px;
+        padding: 10px;
+    }
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
     return (
         <>
-            <Navbar bg="light" variant="light" collapseOnSelect expand="lg">
+            <Navbar bg="light" variant="light" collapseOnSelect expand="lg" className="w-100 container">
                 <Container>
                     <Navbar.Brand href="#home">
                             <img
@@ -18,7 +19,9 @@ const Header = () => {
                         </Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <NavLink 
+                                activeStyle={{fontWeight: "bold", color: "#0cb8b6"}} to="/home">Home
+                            </NavLink>
                             <Nav.Link href="#features">Features</Nav.Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
                         <Navbar.Text>

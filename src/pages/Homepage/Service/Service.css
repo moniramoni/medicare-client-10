@@ -1,0 +1,102 @@
+.courses{
+    background-color: #f9f8f8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+/* card img style start */
+.courses img{
+    width: 100%;
+    /* height: 100px; */
+    border-radius: 2px;
+}
+.img{
+    height: 150px;
+}
+/* card img style end*/
+
+/* enrolled student & lession start */
+.enrolled{
+    width: 100%;
+    vertical-align: middle;
+    padding: 10px 0px 10px 0px;
+}
+.enrolled i{
+    color:#0cb8b6;
+    font-size: 15px;
+    padding-right: 5px;
+
+}
+.enrolled p{
+    color:rgb(61, 58, 58);
+    font-size: 14px;
+    padding: 2px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.enrolled, .info-price{
+    display: flex;
+    justify-content: space-between;
+}
+.enrolled .lession, .student{
+    display: flex;
+    vertical-align: middle;
+}
+/* enrolled student & lession end */
+
+
+/* card title style start */
+.courses h2{
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: -10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* card title style start */
+
+
+/* rating & review style start */
+
+/* rating & review style end */
+
+/* instructor info start */
+hr{
+    color: rgb(179, 178, 178);
+}
+.instructor-info img{
+    width: 18%;
+    border-radius: 50%;
+}
+.instructor-info, .price a{
+    display: flex;
+    justify-content: baseline;
+}
+.price{
+    display: flex;
+    vertical-align: middle;
+    color: #0cb8b6;
+}
+.cart{
+    margin-top: 5px;    
+}
+
+a, h4{
+    text-decoration: none;
+    font-size: 15px;
+}
+h4{
+    display: absolute;
+    margin-top: 8px;
+    padding-left: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+}
+.rating{
+    text-align: left;
+}
+.fa-star{
+    color: #0cb8b6;
+}
+/* instructor info end */
