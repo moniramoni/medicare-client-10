@@ -22,8 +22,8 @@ const Header = () => {
                             <NavLink 
                                 activeStyle={{fontWeight: "bold", color: "#0cb8b6"}} to="/home">Home
                             </NavLink>
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Nav.Link as={Link}to="#features">Features</Nav.Link>
+                            <Nav.Link as={Link}to="#pricing">Pricing</Nav.Link>
                         <Navbar.Text>
                             Signed in as: <a href="#login">Mark Otto</a>
                         </Navbar.Text>

@@ -1,0 +1,20 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+}
+.form{
+    background-color: #0cb8b6;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.signIn-btn{
+    background-color: #212522;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signIn-btn:hover{
+    background-color: #212522;
+}

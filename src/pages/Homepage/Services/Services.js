@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Services.css'
 import Service from '../Service/Service';
+import { Col, Row } from 'react-bootstrap';
 
 const Services = () => {
 
@@ -21,7 +22,7 @@ const Services = () => {
             <div className="services-container">
                 {
                     services.map(service => <Service 
-                    
+                        
                         key={service.id}
                         service={service}
 
