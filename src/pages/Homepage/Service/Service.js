@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = (props) => {
@@ -27,7 +28,7 @@ const Service = (props) => {
                     <div className="instructor-info">
                         {/* <img src={instructorImg} alt="" /> */}
                         {/* <h4>{instructorName}</h4> */}
-                        <Button variant="info">select Service</Button>{' '}
+                        <Link to={`/serviceDetails/${id}`}><Button variant="info">select Service</Button>{' '}</Link>
                     </div>
                     <a href="">
                         <div className="price">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
@@ -8,14 +8,14 @@ const Header = () => {
         <>
             <Navbar bg="light" variant="light" collapseOnSelect expand="lg" className="w-100 container">
                 <Container>
-                    <Navbar.Brand href="#home">
-                            <img
+                    <Navbar.Brand href="/home">
+                            <Link to="/home"><img
                                 src="http://medicare.bold-themes.com/clinic/wp-content/uploads/sites/2/2018/03/medicare-logo-color.png"
                                 width="150"
                                 height="50"
                                 className="d-inline-block align-top"
                                 alt="React Bootstrap logo"
-                            />
+                            /></Link>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">

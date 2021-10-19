@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css'
-import logo from '../../../images/logo.png'
 import { Col, Row } from 'react-bootstrap';
 
 
@@ -59,8 +58,8 @@ const Footer = () => {
             <Col className=" d-flex justify-content-lg-end justify-content-md-end justify-content-sm-center justify-content-center" xs={12} md={6} lg={6}>
             <ul className="footer-icon text-white d-flex justify-content-sm-center">
                     <li><i className="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i className="fab fa-twitter"></i></li>
+                    <li><i className="fab fa-youtube"></i></li>
                 </ul>
             </Col>
         </Row>

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './pages/Shared/Header/Header';
 import Footer from './pages/Shared/Footer/Footer';
 import Notfound from './pages/NotFound/Notfound'
+import ServiceDetails from './pages/Homepage/ServiceDetails/ServiceDetails';
+import SignIn from './pages/Shared/Login/SignIn/SignIn';
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/signin">
+            <SignIn></SignIn>
+          </Route>
+          <Route path="/serviceDetails/:serviceId">
+            <ServiceDetails></ServiceDetails>
           </Route>
           <Route path="*">
             <Notfound></Notfound>

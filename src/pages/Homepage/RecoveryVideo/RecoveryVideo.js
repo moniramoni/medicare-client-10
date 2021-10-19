@@ -16,13 +16,13 @@ const RecoveryVideo = () => {
                 </div>
                 <Row className="container d-md-inline-flex d-sm-none d-none d-lg-flex w-100">
                     <Col xs={2} md={4} lg={4} className="mt-5 ">
-                        <iframe className="border-video" width="w-100 w-md-50" height="h-100" src="https://www.youtube.com/embed/g_O2AS7P_jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                        <iframe className="border-video" width="w-100 w-md-50" height="h-100" src="https://www.youtube.com/embed/g_O2AS7P_jg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>  
                     </Col> 
                     <Col xs={2} md={4} lg={4} className="mt-5 gap-md-2 d-md-none d-lg-block">
-                    <iframe className="border-video" width="w-100" height="h-100" src="https://www.youtube.com/embed/ccl1dQZKqto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className="border-video" width="w-100" height="h-100" src="https://www.youtube.com/embed/ccl1dQZKqto" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </Col>                               
                     <Col xs={2} md={4} lg={4} className="mt-5 d-md-none d-lg-block gap-md-2">
-                        <iframe className="border-video" width="w-100 w-md-50" height="h-100" src="https://www.youtube.com/embed/2vOLAVHLSDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="border-video" width="w-100 w-md-50" height="h-100" src="https://www.youtube.com/embed/2vOLAVHLSDQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </Col>                               
                 </Row>
             </div>
