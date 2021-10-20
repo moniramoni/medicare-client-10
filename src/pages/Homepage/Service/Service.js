@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Service.css'
 
 const Service = (props) => {
-    const{serviceName, img, bigImg, id, description, visitFee, cost, }=props.service
+    const{serviceName, img, bigImg, id, description,}=props.service
     return (        
         <div className="services col-lg-3 col-md-6 col-sm-12 col-12">
             <div>
@@ -19,7 +19,7 @@ const Service = (props) => {
                     <hr />
                     <div className="card-btn">
                         <div className="btn">
-                            <NavLink to={`/serviceDetails/${id}`} activeStyle={{fontWeight: "bold",  color:"red" }}><Button variant="">Select Service</Button>{' '}</NavLink>
+                            <NavLink to={`/serviceDetails/${id}`} activeStyle={{fontWeight: "bold",  color:"red" }}><Button variant="">{serviceName}</Button>{' '}</NavLink>
                         </div>
                     </div>
                 </div>

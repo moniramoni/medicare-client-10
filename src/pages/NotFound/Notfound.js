@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Notfound.css';
 
 const Notfound = () => {
@@ -8,7 +9,7 @@ const Notfound = () => {
             <div className="notfound-container container p-5 pt-0">
                 <div>
                     <img className="w-100" src="https://i.ibb.co/sgZrFh1/74-ai.png" alt="" />
-                    <Button className="notfound-btn" variant="info">Go Back Home </Button>{' '}
+                    <Link to="/home"><Button className="notfound-btn" variant="info">Go Back Home </Button>{' '}</Link>
                 </div>
             </div>
         </div>

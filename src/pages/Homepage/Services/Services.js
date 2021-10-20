@@ -17,10 +17,10 @@ const Services = () => {
     return (
         <div>
             <div>
-                <h1 className="fs-1 fw-bold">Browse All Services</h1>
+                <h1 className="fs-1 fw-bold">Our Services</h1>
             </div>
             {/* <div className="row m-0  gap-4 W-100 justify-content-center"> */}
-                <Row className="services-container">
+                <Row className="services-container ">
                         {
                             services.map(service => <Service 
                                 

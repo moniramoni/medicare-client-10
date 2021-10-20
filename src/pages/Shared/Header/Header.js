@@ -8,14 +8,14 @@ const Header = () => {
     const {user , logOut } = useAuth();
     return (
         <>
-            <Navbar bg="" variant="light" collapseOnSelect expand="lg" className="w-100 container">
+            <Navbar bg="" variant="light" collapseOnSelect expand="lg" className="container">
                 <Container>
                     <Navbar.Brand href="/home">
                             <Link to="/home"><img
                                 src="http://medicare.bold-themes.com/clinic/wp-content/uploads/sites/2/2018/03/medicare-logo-color.png"
                                 width="150"
                                 height="50"
-                                className="d-inline-block align-top"
+                                className=""
                                 alt="React Bootstrap logo"
                             /></Link>
                         </Navbar.Brand>

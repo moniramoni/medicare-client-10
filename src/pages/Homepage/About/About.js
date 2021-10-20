@@ -5,9 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 const About = () => {
     return (
         <div>
-            <div className="py-5">
+            <div className="py-5 container">
                 <div className="about p-0 p-md-5 p-lg-5 p-sm-0">
-                    <Container className="">
+                    <Container className="w-100">
                         <Row className="w-100" >
                             {/* -------------column first part------- */}
                             <Col xs={12} md={12} lg={6}>
@@ -106,7 +106,7 @@ const About = () => {
                                </div>
                             </Col>
                             {/* -------------column second part------- */}
-                            <Col xs={12} md={12} lg={6} className="about-img mt-md-5 pt-md-5">
+                            <Col xs={12} md={12} lg={6} className="about-img mt-md-5 pt-md-5 mt-lg-0 pt-lg-0 mt-sm-5 pt-sm-5 mt-5 pt-5">
                                 <div className="about-image py-5 h-120">
                                     <img className="w-100" src="https://i.ibb.co/phrrS9G/ezgif-6-75c8e63a3dd7.jpg" alt="" />
                                 </div>
