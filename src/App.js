@@ -10,6 +10,8 @@ import SignIn from './pages/Shared/Login/SignIn/SignIn';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './pages/Shared/Login/PrivateRoute/PrivateRoute';
 import SignUp from './pages/Shared/Login/SignUp/SignUp';
+import Blogs from './pages/Blogs/Blogs';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -23,6 +25,12 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/blogs">
+              <Blogs></Blogs>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <Route path="/signIn">
               <SignIn></SignIn>

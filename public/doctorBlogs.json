@@ -1,0 +1,56 @@
+ "blogs":[
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/02/shutterstock_716852980-900x500.jpg",
+        "title":"TOPARP-B Phase II Trial Shows Positive Results Using Olaparib For Prostate Cancer",
+        "id":"1",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language",
+        "date":"19 October, 2021",
+        "author":"John Smith",
+        "category":"Radiology",
+    },
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/02/shutterstock_547398394-900x500.jpg",
+        "title":"Doctor’s Failure to Diagnose a Medical Condition",
+        "id":"2",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language...",
+        "date":"November 2, 2021",
+        "author":"Mac Ben",
+        "category":"Radiology",
+    },
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/12/shutterstock_556980217-900x500.jpg",
+        "title":"Using anthrax to fight cancer effectively",
+        "id":"3",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language...",
+        "date":"June 16 2021",
+        "author":"harry potel",
+        "category":"Antibiotic",
+    },
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/02/shutterstock_1152711344-900x500.jpg",
+        "title":"Stem cell discovery could improve treatments for leukemia, other diseases",
+        "id":"4",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language",
+        "date":"july 24, 2021",
+        "author":"John Smith",
+        "category":"Heart rate",
+    },
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/02/shutterstock_123513331-900x500.jpg",
+        "title":"Brushing your teeth may keep your heart healthy",
+        "id":"5",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language",
+        "date":"13 April 2021",
+        "author":"Kibria",
+        "category":"Infection",
+    },
+    {
+        "img":"https://a6e8z9v6.stackpathcdn.com/mediz/dentist/wp-content/uploads/sites/4/2019/02/shutterstock_582888679-900x500.jpg",
+        "title":"Researchers Identify Brain Networks That Are Involved With Suicide",
+        "id":"6",
+        "description":"I neglect my talents Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language...",
+        "date":"18 August 2020",
+        "author":"Steave Jobs",
+        "category":"Brain Cancer"
+    }
+]

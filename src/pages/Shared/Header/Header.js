@@ -8,7 +8,7 @@ const Header = () => {
     const {user , logOut } = useAuth();
     return (
         <>
-            <Navbar bg="light" variant="light" collapseOnSelect expand="lg" className="w-100 container">
+            <Navbar bg="" variant="light" collapseOnSelect expand="lg" className="w-100 container">
                 <Container>
                     <Navbar.Brand href="/home">
                             <Link to="/home"><img
@@ -25,10 +25,14 @@ const Header = () => {
                                 className="menu-text"
                                 activeStyle={{fontWeight: "bold", color: "#0cb8b6"}} to="/home">Home
                             </NavLink>
-                            <Nav.Link
+                            <NavLink
                             className="menu-text"
                             activeStyle={{fontWeight: "bold", color: "#0cb8b6"}}
-                             as={Link}to="#features">Features</Nav.Link>
+                             as={Link}to="/blogs" className="menu-text">Blogs</NavLink>
+                            <NavLink
+                            className="menu-text"
+                            activeStyle={{fontWeight: "bold", color: "#0cb8b66"}}
+                             as={Link}to="/contact" className="menu-text">Contact</NavLink>
                             {user?.email? 
                             <Button className="logout-btn mx-2" onClick={logOut} variant="">LogOut</Button>:
                                 <Nav.Link

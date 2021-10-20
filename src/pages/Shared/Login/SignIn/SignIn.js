@@ -28,7 +28,7 @@ const SignIn = () => {
                         <hr className="w-25 text-dark"/>
                     </div>
                     <div className="row mb-3 text-danger">{error}</div>
-                    <Link to="/signup"><Button onSubmit={handleSignUp} className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Create New Account" />{' '}</Link>
+                    <Link to="/signUp"><Button onSubmit={handleSignUp} className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Create New Account" />{' '}</Link>
 
 
                     {/* -------logIn with Another way------- */}

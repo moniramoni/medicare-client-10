@@ -22,12 +22,12 @@ const Services = () => {
             {/* <div className="row m-0  gap-4 W-100 justify-content-center"> */}
                 <Row className="services-container">
                         {
-                        services.map(service => <Service 
-                            
-                            key={service.id}
-                            service={service}
+                            services.map(service => <Service 
+                                
+                                key={service.id}
+                                service={service}
 
-                        ></Service>)
+                            ></Service>)
                         }
                 </Row>
             {/* </div> */}

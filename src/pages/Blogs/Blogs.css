@@ -1,0 +1,19 @@
+.blog-column{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px 0px 10px 0px;
+}
+.blog-btn{
+    border: none;
+    background-color: #0cb8b6;
+}
+.blog-btn:hover{
+    background-color: #0cb8b6;
+}
+
+/* ----------------  */
+
+.author-date{
+    display: flex;
+    justify-content: space-between;
+    color: #0cb8b6;
+}

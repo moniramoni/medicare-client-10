@@ -32,7 +32,7 @@ const SignUp = () => {
                         <p className="px-2"> Have an account? </p>
                         <hr className="w-25"/>
                     </div>
-                    <Link to="/signin"><Button className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Sign In" />{' '}</Link>
+                    <Link to="/signIn"><Button className="signIn-btn mb-3 w-100 p-2 rounded bg-light text-dark" as="input" type="submit" value="Sign In" />{' '}</Link>
                 </form>
             </div>
         </div>

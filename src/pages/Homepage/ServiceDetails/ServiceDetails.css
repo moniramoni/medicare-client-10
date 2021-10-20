@@ -1,0 +1,16 @@
+.single-service-bg{
+    background-image: url("https://i.ibb.co/9H8xkqK/Clean-medical-background-vector.jpg");
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 50px 0px;
+}
+.availableDate{
+    color: #0cb8b6;
+}
+.visit-fee{
+    background-color: #0cb8b6;
+    border-radius: 5px;
+}

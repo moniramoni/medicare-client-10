@@ -6,7 +6,7 @@
 - Medicare is missioned to connect people to proper healthcare timely and easily. To reduce treatment delays, Medicare build health awareness among the people through various ways.
 
 # website features
-- Single Page Application(single-page applications don't update the entire page)
+- Single Page Application(single-page applications don't reload the entire page)
 
 - Fast and responsive
 
