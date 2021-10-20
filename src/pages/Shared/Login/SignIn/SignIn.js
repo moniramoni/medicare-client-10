@@ -1,11 +1,24 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../../Hooks/useAuth';
 import './SignIn.css'
 
 const SignIn = () => {
-    const {user, error,  signInUsingGoogle, handlePasswordChange, handleSignUp, handleEmailChange} = useAuth()
+    const {user,isLoading, setUser, setIsLoading, error,  signInUsingGoogle, handlePasswordChange, handleSignUp, handleEmailChange} = useAuth();
+
+    const location = useLocation();
+    const history = useHistory()
+    const redirect_uri = location.state?.from || '/home';
+    console.log(location.state?.from)
+    const handleGoogleLogin =() =>{
+        signInUsingGoogle()
+        .then((result) => {
+            setUser(result.user);
+            history.push(redirect_uri)
+        })
+        .finally(() => setIsLoading(false))
+    }
 
     return (
         <div>
@@ -35,7 +48,7 @@ const SignIn = () => {
                         <p className="px-2 text-white-75"> Or LogIn with Google</p>
                         <hr className="text-dark"/>
                         <div className="d-flex justify-content-center align-items-center text-dark fs-2">
-                            <button onClick={signInUsingGoogle} className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-google"></i> - Google</button>
+                            <button onClick={handleGoogleLogin} className="bg-transparent mx-1 border-0 text-dark"><i className=" fab fa-google"></i> - Google</button>
                         </div>
 
                     </div>
